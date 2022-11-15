@@ -7,6 +7,10 @@ public class Main_n1exercici2 {
 		Cotxe cotxe = new Cotxe();
 		System.out.println(cotxe.toString() + cotxe.accelerar() + Cotxe.frenar()); 
 		
+		Cotxe cotxe1 = new Cotxe("XC90"); 
+		System.out.println(cotxe1.toString()); 
+		
+		
 
 	}
 
