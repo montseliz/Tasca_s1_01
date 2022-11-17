@@ -3,27 +3,14 @@ package n1exercici2_montseliz;
 public class Cotxe {
 	
 	//Atributs
-	static private final String MARCA; 
-	static private String model; 
-	final private int POTENCIA; 
-	
-	//Bloc d'inicialització d'static 
-	static {
-		MARCA = "Volvo"; 
-		model = "S40";
-	}
-	
-	//Bloc d'inicialització d'instància
-	{
-		POTENCIA = 120; 
-	}
+	private static final String MARCA = "Volvo"; 
+	private static String model; 
+	private final int POTENCIA; 
 	
 	//Constructor
-	public Cotxe() {
-	}
-	
-	public Cotxe(String model) { //L'atribut model és el que es pot inicialitzar al constructor al no ser final. 
+	public Cotxe(String MARCA, String model, int POTENCIA) { 
 		Cotxe.model = model; 
+		this.POTENCIA = POTENCIA; 
 	}
 	
 	//Getters

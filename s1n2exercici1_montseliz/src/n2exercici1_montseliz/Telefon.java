@@ -7,10 +7,6 @@ public class Telefon {
 	private String model; 
 	
 	//Constructors
-	public Telefon() {
-		this.marca = ""; 
-		this.model = ""; 
-	}
 	public Telefon(String marca, String model) {
 		this.marca = marca; 
 		this.model = model; 

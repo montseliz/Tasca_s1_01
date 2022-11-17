@@ -3,11 +3,18 @@ package n1exercici1_montseliz;
 public abstract class Instrument {
 
 	//Atributs
-	protected String nom; 
-	protected float preu; 	
+	private String nom; 
+	private float preu; 	
+	
+	//Inicialitzador static
+	static {
+		System.out.println("Els intruments es preparen per afinar.");
+	}
 	
 	//Constructor
-	public Instrument() {
+	public Instrument(String nom, float preu) {
+		this.nom = nom;
+		this.preu = preu; 
 	}
 	
 	//Getters

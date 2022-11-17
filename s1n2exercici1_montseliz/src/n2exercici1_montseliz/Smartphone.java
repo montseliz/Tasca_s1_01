@@ -3,9 +3,6 @@ package n2exercici1_montseliz;
 public class Smartphone extends Telefon implements Camera, Rellotge {
 
 	//Constructors 
-	public Smartphone() {
-		super();  
-	}
 	public Smartphone(String marca, String model) {
 		super(marca, model); 
 	}
