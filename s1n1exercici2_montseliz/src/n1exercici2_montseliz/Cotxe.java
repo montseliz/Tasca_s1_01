@@ -8,7 +8,7 @@ public class Cotxe {
 	private final int POTENCIA; 
 	
 	//Constructor
-	public Cotxe(String MARCA, String model, int POTENCIA) { 
+	public Cotxe(String model, int POTENCIA) { 
 		Cotxe.model = model; 
 		this.POTENCIA = POTENCIA; 
 	}
