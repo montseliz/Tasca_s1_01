@@ -1,7 +1,7 @@
 # tasca_s1_01
 
 NIVELL 1: 
-- Exercici 1
+- Exercici 1:
 En un grup de música hi ha diferents tipus d’instruments musicals. Hi ha instruments de vent, de corda i de percussió.
 Tots els instruments tenen com a atributs el seu nom, i el seu preu. A més, tenen un mètode anomenat tocar(). 
 Aquest, és abstracte a la classe instrument i, per tant, s’ha d’implementar a les classes filles. 
@@ -14,7 +14,7 @@ d'aquesta classe o per l'accés a un membre estàtic d'aquesta.
 
 Cerca informació sobre els blocs d'inicialització i blocs estàtics en Java.
 
-- Exercici 2
+- Exercici 2:
 Crea una classe "Cotxe" amb els atributs: marca, model i potència. La marca ha de ser estàtic final, el model estàtic i la potència final. 
 Demostra la diferència entre els tres. N’hi ha algun que es pugui inicialitzar al constructor de la classe?
 
@@ -25,7 +25,7 @@ Demostra com invocar el mètode estàtic i el no estàtic des del main() de la c
 
 
 NIVELL 2: 
-- Exercici 1
+- Exercici 1:
 Crea una classe anomenada "Telèfon" amb els atributs marca i model, i el mètode trucar(). Aquest mètode ha de rebre un String amb un número de telèfon. 
 El mètode ha de mostrar per consola un missatge dient que s’està trucant al número rebut per paràmetre. 
 
